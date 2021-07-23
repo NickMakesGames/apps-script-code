@@ -4,6 +4,7 @@ function onOpen() {
   menu.addToUi()
 }
 
+//adds 1 to the number in each cell
 function addOne(){
   const sel = DocumentApp.getActiveDocument().getSelection().getRangeElements()
   for (let i = 0; i < sel.length; i++){
